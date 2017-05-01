@@ -588,8 +588,10 @@ FUNCTION {contains.dash}
 FUNCTION {format.year}
 { year empty$ not
     { year }
-    { "empty year in " cite$ * warning$
-      ""
+    { urldate empty$ not
+        { "[" urldate extract.before.dash * "]" * }
+        { "empty year in " cite$ * warning$ }
+      if$
     }
   if$
   extract.before.dash
@@ -1483,7 +1485,7 @@ FUNCTION {calc.label}
   short.list key field.or.null = or
      { pop$
        urldate empty$ not
-         { urldate extract.before.dash }
+         { "[" urldate extract.before.dash * "]" * }
          { "" }
        if$
      }
