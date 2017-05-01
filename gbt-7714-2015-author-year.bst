@@ -377,10 +377,7 @@ FUNCTION {format.url}
 }
 
 FUNCTION {format.doi}
-{ doi empty$
-    { "" }
-    { new.block "\doi{" doi * "}" * }
-  if$
+{ ""
 }
 
 FUNCTION {format.title}
