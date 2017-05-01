@@ -2000,6 +2000,7 @@ FUNCTION {monograph}
   if$
   output
 %<*authoryear>
+  new.block
   format.year "year" output.check
 %</authoryear>
   new.block
@@ -2039,6 +2040,7 @@ FUNCTION {incollection}
   format.authors "author" output.check
   author format.key output
 %<*authoryear>
+  new.block
   format.year "year" output.check
 %</authoryear>
   new.block
@@ -2075,6 +2077,7 @@ FUNCTION {periodical}
   format.authors "author" output.check
   author format.key output
 %<*authoryear>
+  new.block
   format.year "year" output.check
 %</authoryear>
   new.block
@@ -2104,6 +2107,7 @@ FUNCTION {article.in.journal}
   format.authors "author" output.check
   author format.key output
 %<*authoryear>
+  new.block
   format.year "year" output.check
 %</authoryear>
   new.block
@@ -2136,6 +2140,7 @@ FUNCTION {patent}
   format.authors output
   author format.key output
 %<*authoryear>
+  new.block
   format.year "year" output.check
 %</authoryear>
   new.block
@@ -2165,6 +2170,7 @@ FUNCTION {online}
   format.authors output
   author format.key output
 %<*authoryear>
+  new.block
   format.year "year" output.check
 %</authoryear>
   new.block

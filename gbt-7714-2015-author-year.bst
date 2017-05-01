@@ -1010,6 +1010,7 @@ FUNCTION {monograph}
     }
   if$
   output
+  new.block
   format.year "year" output.check
   new.block
   format.series.vol.num.title "title" output.check
@@ -1032,6 +1033,7 @@ FUNCTION {incollection}
 { output.bibitem
   format.authors "author" output.check
   author format.key output
+  new.block
   format.year "year" output.check
   new.block
   format.title "title" output.check
@@ -1058,6 +1060,7 @@ FUNCTION {periodical}
 { output.bibitem
   format.authors "author" output.check
   author format.key output
+  new.block
   format.year "year" output.check
   new.block
   format.title "title" output.check
@@ -1077,6 +1080,7 @@ FUNCTION {article.in.journal}
 { output.bibitem
   format.authors "author" output.check
   author format.key output
+  new.block
   format.year "year" output.check
   new.block
   format.title "title" output.check
@@ -1097,6 +1101,7 @@ FUNCTION {patent}
 { output.bibitem
   format.authors output
   author format.key output
+  new.block
   format.year "year" output.check
   new.block
   format.title
@@ -1119,6 +1124,7 @@ FUNCTION {online}
 { output.bibitem
   format.authors output
   author format.key output
+  new.block
   format.year "year" output.check
   new.block
   format.series.vol.num.title "title" output.check
