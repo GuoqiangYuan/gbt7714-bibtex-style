@@ -1193,7 +1193,11 @@ FUNCTION {map}
 }
 
 FUNCTION {mastersthesis}
-{ "D" set.mark
+{ is.in.chinese
+    { "硕士学位论文" }
+    { "D" }
+  if$
+ set.mark
   monograph
 }
 
@@ -1202,7 +1206,14 @@ FUNCTION {newspaper}
   article.in.journal
 }
 
-FUNCTION {phdthesis} { mastersthesis }
+FUNCTION {phdthesis}
+{ is.in.chinese
+    { "博士学位论文" }
+    { "D" }
+  if$
+ set.mark
+  monograph
+}
 
 FUNCTION {proceedings}
 { "C" set.mark
