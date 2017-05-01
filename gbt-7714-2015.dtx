@@ -989,7 +989,7 @@ FUNCTION {format.names}
   s num.names$ 'numnames :=
   numnames 'namesleft :=
     { namesleft #0 > nameptr #4 < and }
-    { s nameptr "{vv~}{ll}{ f{ }}" format.name$ "u" change.case$
+    { s nameptr "{vv~}{ll}{ f{ }}" format.name$
       s nameptr "{, jj}" format.name$ *
       't :=
       nameptr #1 >
