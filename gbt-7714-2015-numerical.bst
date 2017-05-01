@@ -1188,7 +1188,11 @@ FUNCTION {map}
 }
 
 FUNCTION {mastersthesis}
-{ "D" set.mark
+{ is.in.chinese
+    { "\thumasterbib{}" }
+    { "D" }
+  if$
+ set.mark
   monograph
 }
 
@@ -1197,7 +1201,14 @@ FUNCTION {newspaper}
   article.in.journal
 }
 
-FUNCTION {phdthesis} { mastersthesis }
+FUNCTION {phdthesis}
+{ is.in.chinese
+    { "\thuphdbib{}" }
+    { "D" }
+  if$
+ set.mark
+  monograph
+}
 
 FUNCTION {proceedings}
 { "C" set.mark
@@ -1575,11 +1586,13 @@ FUNCTION {begin.bib}
   write$ newline$
   "\providecommand{\url}[1]{\texttt{#1}}"
   write$ newline$
-  "\expandafter\ifx\csname urlstyle\endcsname\relax"
+  "\expandafter\ifx\csname thumasterbib\endcsname\relax"
   write$ newline$
-  "  \providecommand{\doi}[1]{DOI: #1}\else"
+  "  \providecommand\thumasterbib{D}\fi"
   write$ newline$
-  "  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi"
+  "\expandafter\ifx\csname thuphdbib\endcsname\relax"
+  write$ newline$
+  "  \providecommand\thuphdbib{D}\fi"
   write$ newline$
 }
 

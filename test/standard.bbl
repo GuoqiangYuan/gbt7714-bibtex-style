@@ -2,9 +2,10 @@
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[Lee\ et~al.(2017)Lee and Zeping]{lzp1}
 Lee Z, Zeping L.
@@ -36,9 +37,10 @@ One A, Two A, Three A.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[陈登原(2000)]{cdy}
 陈登原.
@@ -94,7 +96,7 @@ One A, Two A, Three A.
 
 \bibitem[杨保军(2012)]{ybj}
 杨保军.
-\newblock 新闻道德论\allowbreak[D/OL].
+\newblock 新闻道德论\allowbreak[\thuphdbib{}/OL].
 \newblock 北京: 中国人民大学出版社, 2012\allowbreak[2012-11-01].
 \newblock
   \url{http://apabi.lib.pku.edu.cn/usp/pku/pub.mvc?pid=book.detail&metaid=m.20101104-BPO-889-1023&cult=CN}.
@@ -154,9 +156,10 @@ Fan X, Sommers C H.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[wfz(2011)]{wfz2}
 周易外传：卷5\allowbreak[M]//\allowbreak{}王夫之.
@@ -214,9 +217,10 @@ Roberson J A, Burneson E G.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[中华医学会湖北分会(1984)]{zhyxhhbfh}
 中华医学会湖北分会.
@@ -242,9 +246,10 @@ Roberson J A, Burneson E G.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[袁训来\ 等(2012)袁训来, 陈哲, 肖书海, et~al.]{yxl}
 袁训来, 陈哲, 肖书海, 等.
@@ -311,9 +316,10 @@ Myburg A A, Grattapaglia D, Tuskan G A, et~al.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[邓一刚(2006)]{dyg}
 邓一刚.
@@ -340,9 +346,10 @@ Tachibana R, Shimizu S, Kobayshi S, et~al.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[中国互联网络信息中心(2012)]{zghlwlxxzx}
 中国互联网络信息中心.
@@ -383,9 +390,10 @@ Hopkinson A.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[Baker\ et~al.(1995)Baker and Jackson]{baker}
 Baker S K, Jackson M E.
@@ -425,9 +433,10 @@ Dowler L.
 \bibpunct{(}{)}{;}{a}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[尼葛洛庞帝(1996)]{nglpd}
 尼葛洛庞帝.
@@ -473,9 +482,10 @@ Dowler L.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[Sunstein(1996)]{sunstein}
 Sunstein C R.
@@ -506,9 +516,10 @@ Morri I.
 \bibpunct{(}{)}{;}{a}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[刘彻东(1998)]{lcd}
 刘彻东.
@@ -545,9 +556,10 @@ Morri I.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[张伯伟(2002)]{zbw}
 张伯伟.
@@ -655,9 +667,10 @@ Praetzellis A.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[中国职工教育研究会(1985)]{zgzgjyyjh}
 中国职工教育研究会.
@@ -695,9 +708,10 @@ Babu B V, Nagar A K, Deep K, et~al.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[中华人民共和国国务院新闻办公室(2013)]{zhrmghggwyxwbgs}
 中华人民共和国国务院新闻办公室.
@@ -738,14 +752,15 @@ Calkin D, Ager A, Thompson M.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[马欢(2011)]{mh}
 马欢.
 \newblock
-  人类活动影响下海河流域典型区水循环变化分析\allowbreak[D/OL].
+  人类活动影响下海河流域典型区水循环变化分析\allowbreak[\thuphdbib{}/OL].
 \newblock 北京: 清华大学, 2011: 27\allowbreak[2013-10-14].
 \newblock
   \url{http://www.cnki.net/kcms/detail/detail.aspx?dbcode=CDFD&QueryID=.0&CurRec=11&dbname=CDFDLAST2013&filename=1012035905.nh&uid=WEEvREcwSlJHSldTTGJhYIJRaEhGUXFQWVB6SGZXeisxdmVhV3ZyZkpoUnozeDE1b0paM0NmMjZiQ3p4TUdmcw=}.
@@ -753,7 +768,7 @@ Calkin D, Ager A, Thompson M.
 \bibitem[吴云芳(2003)]{wyf}
 吴云芳.
 \newblock
-  面向中文信息处理的现代汉语并列结构研究\allowbreak[D/OL].
+  面向中文信息处理的现代汉语并列结构研究\allowbreak[\thuphdbib{}/OL].
 \newblock 北京: 北京大学, 2003\allowbreak[2013-10-14].
 \newblock
   \url{http://thesis.lib.pku.edu.cn/dlib/List.asp?lang=gb&type=Reader&DocGroupID=4&DocID=6328}.
@@ -768,9 +783,10 @@ Calms R B.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[张凯军(2012)]{zkj}
 张凯军.
@@ -798,9 +814,10 @@ Koseki A, Momose H, Kawahito M, et~al.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[全国信息与文献标准化技术委员会(2010)]{qgxxywxbzhjswyh2}
 全国信息与文献标准化技术委员会.
@@ -832,9 +849,10 @@ Information and documentation---the {Dublin} cord metadata element set: {ISO
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[swg(1988)]{swgwj}
 卷39 乞致仕第一\allowbreak[M]//\allowbreak{}苏魏公文集: 下册.
@@ -893,9 +911,10 @@ Fourney M E.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[杨洪升(2013)]{yhs}
 杨洪升.
@@ -963,9 +982,10 @@ Park J R, Tosaka Y.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[丁文详(2000)]{dwx}
 丁文详.
@@ -996,9 +1016,10 @@ Park J R, Tosaka Y.
 \bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI: #1}\else
-  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+\expandafter\ifx\csname thumasterbib\endcsname\relax
+  \providecommand\thumasterbib{D}\fi
+\expandafter\ifx\csname thuphdbib\endcsname\relax
+  \providecommand\thuphdbib{D}\fi
 
 \bibitem[萧钰(2001)]{xy}
 萧钰.
