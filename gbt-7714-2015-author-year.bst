@@ -590,7 +590,7 @@ FUNCTION {format.year}
     { year }
     { urldate empty$ not
         { "[" urldate extract.before.dash * "]" * }
-        { "empty year in " cite$ * warning$ }
+        { "empty year in " cite$ * warning$ "" }
       if$
     }
   if$
