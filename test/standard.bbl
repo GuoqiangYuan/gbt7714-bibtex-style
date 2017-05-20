@@ -1,5 +1,4 @@
 \begin{thebibliography}{4}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -34,7 +33,6 @@ One A, Two A, Three A.
 
 \end{thebibliography}
 \begin{thebibliography}{17}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -153,7 +151,6 @@ Fan X, Sommers C H.
 
 \end{thebibliography}
 \begin{thebibliography}{7}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -214,7 +211,6 @@ Roberson J A, Burneson E G.
 
 \end{thebibliography}
 \begin{thebibliography}{3}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -243,7 +239,6 @@ Roberson J A, Burneson E G.
 
 \end{thebibliography}
 \begin{thebibliography}{9}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -313,7 +308,6 @@ Myburg A A, Grattapaglia D, Tuskan G A, et~al.
 
 \end{thebibliography}
 \begin{thebibliography}{3}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -343,7 +337,6 @@ Tachibana R, Shimizu S, Kobayshi S, et~al.
 
 \end{thebibliography}
 \begin{thebibliography}{5}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -387,7 +380,6 @@ Hopkinson A.
 
 \end{thebibliography}
 \begin{thebibliography}{6}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -430,7 +422,6 @@ Dowler L.
 
 \end{thebibliography}
 \begin{thebibliography}{6}
-\bibpunct{(}{)}{;}{a}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -479,7 +470,6 @@ Dowler L.
 
 \end{thebibliography}
 \begin{thebibliography}{4}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -513,7 +503,6 @@ Morri I.
 
 \end{thebibliography}
 \begin{thebibliography}{4}
-\bibpunct{(}{)}{;}{a}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -553,7 +542,6 @@ Morri I.
 
 \end{thebibliography}
 \begin{thebibliography}{16}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -664,7 +652,6 @@ Praetzellis A.
 
 \end{thebibliography}
 \begin{thebibliography}{5}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -705,7 +692,6 @@ Babu B V, Nagar A K, Deep K, et~al.
 
 \end{thebibliography}
 \begin{thebibliography}{5}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -749,7 +735,6 @@ Calkin D, Ager A, Thompson M.
 
 \end{thebibliography}
 \begin{thebibliography}{3}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -780,7 +765,6 @@ Calms R B.
 
 \end{thebibliography}
 \begin{thebibliography}{3}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -811,7 +795,6 @@ Koseki A, Momose H, Kawahito M, et~al.
 
 \end{thebibliography}
 \begin{thebibliography}{4}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -846,7 +829,6 @@ Information and documentation---the {Dublin} cord metadata element set: {ISO
 
 \end{thebibliography}
 \begin{thebibliography}{8}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -908,7 +890,6 @@ Fourney M E.
 
 \end{thebibliography}
 \begin{thebibliography}{9}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -979,7 +960,6 @@ Park J R, Tosaka Y.
 
 \end{thebibliography}
 \begin{thebibliography}{4}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
@@ -1013,7 +993,6 @@ Park J R, Tosaka Y.
 
 \end{thebibliography}
 \begin{thebibliography}{4}
-\bibpunct{[}{]}{,}{s}{,}{,}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname thumasterbib\endcsname\relax
