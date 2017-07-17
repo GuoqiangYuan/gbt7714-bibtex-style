@@ -71,7 +71,7 @@ which was designed for use with the `natbib.sty' package.
 \usepackage{hypdoc}
 \hypersetup{allcolors=blue}
 \usepackage[UTF8,scheme=plain]{ctex}
-\IfFileExists{/System/Library/Fonts/Times.dfont }{
+\IfFileExists{/System/Library/Fonts/Times.dfont}{
   \setmainfont{Times}
   \setsansfont{Helvetica}[Scale=MatchLowercase]
   \setmonofont{Menlo}[Scale=MatchLowercase]
@@ -124,6 +124,29 @@ which was designed for use with the `natbib.sty' package.
 % \maketitle
 %
 % \changes{v1.0}{2017/05/01}{Initial release.}
+%
+% \section{简介}
+%
+% 《GB/T 7714-2015 信息与文献
+% 参考文献著录规则》（以下简称《规则》）是我国关于参考文献的推荐标准。
+% 宏包 \pkg{gbt-7714-2015} 是《规则》的 \BibTeX{} 实现，
+% 包括顺序编码制和著者-出版年制两种风格。
+%
+% 本文使用以下术语：
+% \begin{description}
+%     \item[顺序编码制]（numerical style）
+%     \item[著者-出版年制]（author-year style）
+%     \item[参考文献表]
+% \end{description}
+%
+% \section{使用方法}
+% 宏包 \pkg{gbt-7714-2015} 应在导言区调用，如：
+% \begin{lstlisting}
+% \usepackage{gbt-7714-2015}
+% \end{lstlisting}
+%
+% 《规则》规定了顺序编码制和著者-出版年制两种风格，其中顺序编码制要求引用
+% 标注使用角标数字式，而很多人希望使用在正文的数字式。为此，
 %
 % \StopEventually{}
 %

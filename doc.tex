@@ -1,0 +1,65 @@
+\documentclass[a4paper]{ltxdoc}
+\usepackage{hypdoc}
+\hypersetup{allcolors=blue}
+\usepackage[UTF8,scheme=plain]{ctex}
+\IfFileExists{/System/Library/Fonts/Times.dfont}{
+  \setmainfont{Times}
+  \setsansfont{Helvetica}[Scale=MatchLowercase]
+  \setmonofont{Menlo}[Scale=MatchLowercase]
+}{\relax}
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily,frame=single,language=bash}
+\DeclareRobustCommand\file{\nolinkurl}
+\DeclareRobustCommand\env{\texttt}
+\DeclareRobustCommand\pkg{\textsf}
+\DeclareRobustCommand\cls{\textsf}
+\DeclareRobustCommand\opt{\texttt}
+\renewcommand\glossaryname{版本历史}
+\GlossaryPrologue{\section*{\glossaryname}}
+\renewcommand\indexname{命令索引}
+\EnableCrossrefs
+\CodelineIndex
+\RecordChanges
+
+\begin{document}
+
+\title{GB/T 7714-2015 \BibTeX{} style}
+\author{Zeping Lee\thanks{zepinglee AT gmail.com}}
+% \date{\filedate\qquad\fileversion}
+\maketitle
+
+\changes{v1.0}{2017/05/01}{Initial release.}
+
+\section{简介}
+
+《GB/T 7714-2015 信息与文献
+参考文献著录规则》（以下简称《规则》）是我国关于参考文献的推荐标准。
+宏包 \pkg{gbt-7714-2015} 是《规则》的 \BibTeX{} 实现，
+包括顺序编码制和著者-出版年制两种风格。
+
+% 本文使用以下术语：
+% \begin{description}
+%     \item[引用标注]（citation）正文中引用的参考文献。
+%     \item[著录项目]（field）参考文献表中的作者、题名、出版年等项目。
+% \end{description}
+
+\section{使用方法}
+宏包 \pkg{gbt-7714-2015} 应在导言区调用，如：
+\begin{lstlisting}
+\usepackage{gbt-7714-2015}
+\end{lstlisting}
+
+《规则》规定了顺序编码制和著者-出版年制两种风格，其中顺序编码制要求引用文献的的
+序号标注在角标，而很多人希望使将序号标注在正文。为此，本宏包提供以下选项：
+% \begin{description}
+%     \item[super] 角标数字式顺序编码制
+%     \item[numbers] 数字式顺序编码制
+%     \item[authoryear] 角标数字式顺序编码制
+% \end{description}
+
+
+\PrintChanges
+\PrintIndex
+\end{document}
+%
+%
